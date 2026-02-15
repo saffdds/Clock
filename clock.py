@@ -1,6 +1,8 @@
 import time
 import os
+import datetime
 
 while True:
-    print(f"Time: {time.strftime('%H:%M:%S') }", end="\r")
+    adesso = datetime.datetime.now()
+    print(f"deta: {adesso.strftime('%d/%m/%Y')} | Ora: {adesso.strftime('%H:%M:%S')}", end="\r")
     time.sleep(1)
