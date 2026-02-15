@@ -13,4 +13,4 @@ Questo è un progetto Open Source nato per fornire un monitor temporale essenzia
 ## Come usarlo
 Per avviare l'orologio, assicurati di avere Python installato e lancia:
 ```bash
-python clock.py
+python3 clock.py
